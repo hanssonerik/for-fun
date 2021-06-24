@@ -1,3 +1,4 @@
+import 'scripts/wdyr'
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 import { pageview } from '../lib/gtag'
@@ -17,5 +18,7 @@ function MyApp({ Component, pageProps }) {
 
   return <Component {...pageProps} />
 }
+
+MyApp.whyDidYouRender = true
 
 export default MyApp

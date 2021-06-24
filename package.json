@@ -13,6 +13,7 @@
     "build-storybook": "build-storybook --no-dll"
   },
   "dependencies": {
+    "@welldone-software/why-did-you-render": "^6.2.0",
     "next": "10.2.3",
     "prettier": "^2.1.2",
     "react": "17.0.2",
