@@ -3,14 +3,6 @@ import { screen, waitFor } from '@testing-library/react'
 import { getPage } from 'next-page-tester'
 import nextRouter from 'next/router'
 
-jest.mock('next/router', () => {
-  return {
-    __esModule: true,
-    ...jest.requireActual<Record<string, unknown>>('next/router'),
-    default: {}
-  }
-})
-
 it('navigates to random picture page and back', async () => {
   const { render } = await getPage({
     route: '/',
