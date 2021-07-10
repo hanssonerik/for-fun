@@ -1,5 +1,5 @@
 import 'scripts/wdyr'
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useRouter } from 'next/router'
 import { pageview } from '../lib/gtag'
 import {
