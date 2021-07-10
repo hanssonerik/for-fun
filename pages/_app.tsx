@@ -53,9 +53,10 @@ const lightTheme: DefaultTheme = {
 }
 
 const Global = createGlobalStyle`
-   body { padding: 0;
+body { 
+    padding: 0;
     margin: 0;
-    }
+}
 `
 MyApp.whyDidYouRender = true
 
